@@ -1,0 +1,96 @@
+/* Student Name: Aaditya Chaudhary Tharu
+Student ID: 2414024 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family:cursive;
+}
+/* body */
+body{
+    min-height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* inside the box */
+.container {
+    width: 109vh;
+    height: 71vh;
+    background-color: rgb(140, 223, 234);
+    padding: 25px 38px;
+    border-radius: 12px;
+    margin: auto;
+}
+.city_name{
+    font-size: large;
+}
+.inputBox{
+    width: 90%;
+    height: 27px;
+    border-radius: 10px;
+}
+.search-box input {
+    text-transform: capitalize;
+}
+/* search button */
+.search-box button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.weather-details img{
+    width: 100px;
+    height: 100px;
+}
+.overview{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+}
+.week {
+    width: 92%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 33px;
+}
+.week p:hover{
+    cursor: pointer;
+    font-family: cursive;
+}
+.wday1,.wday2,.wday3,.wday4,.wday5,.wday6,.wday7{
+    
+    
+        background-color: rgba(191, 223, 255, 0.875);
+        width: 85px;
+        height: 60px;
+        border-radius: 17px;
+    }
+.wday1:hover,.wday2:hover,.wday3:hover,.wday4:hover,.wday5:hover,.wday6:hover,.wday7:hover,.pressure:hover,.humidity:hover,.wind:hover{
+    box-shadow:  50px 50px 50px rgba(134, 193, 253, 0.875) inset;
+    color: #2f52bd;
+}
+.day1,.day2,.day3,.day4,.day5,.day6,.day7{
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.temperature1,.temperature2,.temperature3,.temperature4,.temperature5,.temperature6,.temperature7{
+    font-weight: 700;
+    
+}
+.week .weather-imgday1{
+    width: 39%;
+    
+}
+.footer{
+    margin-top: 9%;
+}
+
+
+
